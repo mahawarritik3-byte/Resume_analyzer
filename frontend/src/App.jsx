@@ -25,7 +25,7 @@ function App() {
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:8000/analyze-resume/",
+        "https://resume-analyzer-1-7t4x.onrender.com/analyze-resume/",
         {
           method: "POST",
           body: formData,
