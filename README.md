@@ -228,5 +228,5 @@ If you like this project:
 - Fork it 🍴
 - Share it 🚀
 
-BACKEND LINK : https://resume-analyzer-5-11kb.onrender.com
+BACKEND LINK : https://resume-analyzer-1-7t4x.onrender.com
 FRONTEND LINK : https://resume-analyzer-henna-ten.vercel.app/
