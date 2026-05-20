@@ -116,6 +116,101 @@ http://127.0.0.1:8000
 
 ---
 
+# 🚀 Project Workflow
+
+## 📌 How The AI Resume Analyzer Works
+
+The project follows a simple full-stack workflow where the frontend interacts with the backend API to analyze resumes and compare them with job descriptions.
+
+---
+
+## 🖥️ Frontend (Vercel)
+
+The frontend is built using:
+
+- React.js
+- Vite
+- CSS
+- Framer Motion
+
+The frontend allows users to:
+
+✅ Upload Resume (PDF/DOCX)  
+✅ Paste Job Description  
+✅ View ATS Score  
+✅ View Matched Skills  
+✅ View Missing Skills  
+✅ Get Resume Improvement Suggestions  
+
+Frontend is deployed on **Vercel**.
+
+---
+
+## ⚙️ Backend (Render)
+
+The backend is built using:
+
+- FastAPI
+- Python
+- PDF/DOCX Text Extraction
+- Skill Matching Logic
+
+The backend performs:
+
+✅ Resume Text Extraction  
+✅ Job Description Analysis  
+✅ Skill Extraction  
+✅ ATS Score Calculation  
+✅ Suggestion Generation  
+
+Backend is deployed on **Render**.
+
+---
+
+# 🔄 Complete Workflow
+
+```text
+User Uploads Resume + Job Description
+                │
+                ▼
+        Frontend (Vercel)
+                │
+ Sends POST Request using Fetch API
+                │
+                ▼
+       Backend API (Render)
+                │
+ Extract Resume Text from PDF/DOCX
+                │
+ Compare Resume Skills with JD Skills
+                │
+ Calculate ATS Score
+                │
+ Generate Suggestions
+                │
+                ▼
+     Send Response to Frontend
+                │
+                ▼
+ User Sees ATS Analysis Results
+
+---
+
+🌐 Deployment Architecture
+
+User
+  │
+  ▼
+Vercel Frontend
+  │
+  ▼
+Render FastAPI Backend
+  │
+  ▼
+Resume Analysis Engine
+
+---
+
 ## 👨‍💻 Author
 
 **Ritik Mahawar**
