@@ -25,7 +25,7 @@ function App() {
     try {
 
       const response = await fetch(
-        "https://resume-analyzer-1-7t4x.onrender.com/analyze-resume/",
+        "https://resume-analyzer-5-11kb.onrender.com//analyze-resume/",
         {
           method: "POST",
           body: formData,
